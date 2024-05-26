@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Mini Rede Social</title>
+</head>
+<body>
+    <header>
+        <h1>Mini Rede Social</h1>
+    </header>
+    <div class="main">
+        <form id="js-aqui" class="postagem">
+            <label for="postText"><strong>Digite seu post:</strong></label>
+            <textarea id="postText" name="textarea" placeholder="O que você está pensando hoje?" required></textarea>
+
+            <label for="postCategoria"><strong>Categoria:</strong></label>
+            <select id="postCategoria" name="category">
+                <option value="Todos">Todos</option>
+                <option value="noticia">Notícias</option>
+                <option value="dica">Dicas</option>
+                <option value="eventos">Eventos</option>
+            </select>
+
+            <label for="postImg"><strong>Insira uma Imagem (URL):</strong></label>
+            <input type="url" id="js-aqui" name="image" placeholder="Insira a URL aqui...">
+            <label for="postImg"><strong>Insira uma Imagem (URL):</strong></label>
+            <input type="url" id="js-aqui" name="image" placeholder="Insira a URL aqui...">
+            <label for="postImg"><strong>Insira uma Imagem (URL):</strong></label>
+            <input type="url" id="js-aqui" name="image" placeholder="Insira a URL aqui...">
+
+            <button type="submit" class="btnSubmit">Postar</button>
+        </form>
+
+        <div class="filtrarCategoria">
+            <label class="textoCategoria" for="filtro-categoria"><strong>Filtrar por Categoria:</strong></label>
+            <select id="filtro-categoria">
+                <option value="todas">Todas</option>
+                <option value="noticia">Notícia</option>
+                <option value="dica">Dicas</option>
+                <option value="eventos">Eventos</option>
+            </select>
+        </div>
+
+        <div id="?"></div>
+    </div>
+
+</body>
+</html>
