@@ -8,6 +8,7 @@
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
     <title>Mini Rede Social</title>
 </head>
 <body>
@@ -33,8 +34,10 @@
             <input type="url" id="js-aqui" name="image" placeholder="Insira a URL aqui...">
             <label for="postImg"><strong>Insira uma Imagem (URL):</strong></label>
             <input type="url" id="js-aqui" name="image" placeholder="Insira a URL aqui...">
+            <button onclick="displayImage()">Exibir prévia de imagem</button>
+            <div id="ImgContainer"></div>
 
-            <button type="submit" class="btnSubmit">Postar</button>
+            <button  type="submit" class="btnSubmit">Postar</button>
         </form>
 
         <div class="filtrarCategoria">
@@ -50,5 +53,15 @@
         <div id="?"></div>
     </div>
 
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
 </body>
 </html>
